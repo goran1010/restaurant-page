@@ -1,0 +1,60 @@
+html {
+  background-image: url("../img/643.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  gap: 1rem;
+}
+header {
+  align-self: stretch;
+  background-color: rgba(184, 135, 11, 0.753);
+  position: fixed;
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+header > h2 {
+  padding: 0.5rem;
+}
+header > h2:hover {
+  cursor: pointer;
+}
+main {
+  margin-top: 3rem;
+  flex: 1;
+  width: 70%;
+  background-color: rgba(184, 135, 11, 0.753);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 10%;
+  gap: 1rem;
+}
+
+footer {
+  background-color: rgba(184, 135, 11, 0.753);
+  padding: 0.5rem;
+  align-self: stretch;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+footer > p {
+  cursor: pointer;
+}
